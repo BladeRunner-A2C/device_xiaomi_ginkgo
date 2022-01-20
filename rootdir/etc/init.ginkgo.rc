@@ -84,9 +84,6 @@ on property:ro.product.device=willow
     enable nqnfcinfo
     enable nqnfc_2_0_hal_service
 
-on property:sys.camera.miui.apk=*
-    setprop vendor.camera.miui.apk ${sys.camera.miui.apk}
-
 on property:ro.boot.hwversion=*
     setprop vendor.boot.hwversion ${ro.boot.hwversion}
 
